@@ -9,7 +9,7 @@ script:
   - docker run -e CI=true conmeconte/docker-react npm run test
 
 deploy: 
-  edge: true
+  # edge: true
   provider: elasticbeanstalk
   # DockerReact-env.eba-rdpnmaaa.us-west-1.elasticbeanstalk.com // get region from elastic url
   region: "us-west-2"
