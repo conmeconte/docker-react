@@ -12,7 +12,7 @@ deploy:
   edge: true
   provider: elasticbeanstalk
   # DockerReact-env.eba-rdpnmaaa.us-west-1.elasticbeanstalk.com // get region from elastic url
-  region: "us-west-2"
+  region: "us-west-1"
   app: "docker-react" #app name from aws elastic beanstalk
   env: "DockerReact-env"
   bucket_name: "elasticbeanstalk-us-west-1-603678571591" #AWS S3 find bucket name with elastic in it
